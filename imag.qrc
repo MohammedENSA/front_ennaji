@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/new/prefix2">
+        <file>Resources/milad-fakurian-E8Ufcyxz514-unsplash.jpg</file>
+    </qresource>
+</RCC>

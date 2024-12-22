@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UserPage</class>
+ <widget class="QWidget" name="UserPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>-30</x>
+     <y>-30</y>
+     <width>461</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/new/prefix2/Resources/milad-fakurian-E8Ufcyxz514-unsplash.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>50</y>
+     <width>251</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>-1</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel 
+{
+color: white; /* Couleur du texte en jaune (Gold) FFD700*/
+ font-size: 20px; /* Taille du texte */
+    font-weight: bold; /* Texte en gras */
+    font-family: Arial, sans-serif; /* Police de caractère */
+    text-align: center; /* Centrer le texte */
+    padding: 10px; /* Espacement autour du texte */
+}
+
+QLabel:hover {
+    color: #FFD700; /* Couleur du texte plus claire au survol */
+}
+
+QLabel:focus {
+    border: 2px solid #ADD8E6; /* Bordure orange lorsqu'en focus */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>USER Page</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>120</y>
+     <width>401</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>-1</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel 
+{
+color: white; /* Couleur du texte en jaune (Gold) FFD700*/
+ font-size: 20px; /* Taille du texte */
+    font-weight: bold; /* Texte en gras */
+    font-family: Arial, sans-serif; /* Police de caractère */
+    text-align: center; /* Centrer le texte */
+    padding: 10px; /* Espacement autour du texte */
+}
+
+QLabel:hover {
+    color: #FFD700; /* Couleur du texte plus claire au survol */
+}
+
+QLabel:focus {
+    border: 2px solid #ADD8E6; /* Bordure orange lorsqu'en focus */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>design pour prendre un livre ...</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>270</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #FFD700; /* Couleur jaune (Gold) */
+    color: black; /* Texte noir */
+    border: 2px solid #FFA500; /* Bordure orange */
+    border-radius: 10px; /* Coins arrondis */
+    font-size: 10px; /* Taille du texte */
+    font-weight: bold; /* Texte en gras */
+}
+
+QPushButton:hover {
+    background-color: #FFC107; /* Couleur jaune plus claire au survol */
+}
+
+QPushButton:pressed {
+    background-color: #87CEEB; /* Couleur jaune foncée lorsqu'on clique */
+    border: 2px solid #FF6F00; /* Bordure plus foncée */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

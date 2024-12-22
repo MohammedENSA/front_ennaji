@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/new/prefix5">
+        <file>Resources/pngfind.com-spring-png-1218311.png</file>
+    </qresource>
+</RCC>

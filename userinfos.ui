@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UserInfos</class>
+ <widget class="QWidget" name="UserInfos">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>-60</x>
+     <y>-50</y>
+     <width>521</width>
+     <height>401</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/new/prefix2/Resources/milad-fakurian-E8Ufcyxz514-unsplash.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>-20</y>
+     <width>111</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/new/prefix4/Resources/Premium_Vector___Man_reading_book_Logo_Template_Design-removebg-preview (1).png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>30</y>
+     <width>361</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    font-size: 28px;            /* Set the font size */
+    font-weight: bold;          /* Make the text bold */
+    font-family: Arial, sans-serif; /* Set the font family */
+    color: #FF6347;             /* Gold color for text */
+    text-align: center;         /* Align the text to the center */
+    padding: 20px;              /* Add padding around the text */
+    background: linear-gradient(135deg, #6C9ECF, #2F3A5A); /* Gradient background */
+    border-radius: 15px;        /* Rounded corners for the background */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow behind the text */
+    text-transform: uppercase;  /* Make the text uppercase */
+    transition: all 0.3s ease;  /* Smooth transition for hover effect */
+    display: inline-block;      /* Make the label behave like an inline element */
+}
+
+QLabel:hover {
+    color: white;             /* Change text color to Tomato on hover */
+    cursor: pointer;           /* Change cursor to a hand pointer */
+    transform: scale(1.1);      /* Slightly enlarge the text on hover */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add a subtle shadow effect */
+    background: linear-gradient(135deg, #4F82B0, #253B61); /* Darker gradient on hover */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>User Infos</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>130</y>
+     <width>351</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QLabel" name="label_7">
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+            font-family: 'Playfair Display', serif;
+            font-size: 14px;
+            font-weight: bold;
+            color: Black;
+            background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+        }
+        
+        QLabel:hover {
+            background: linear-gradient(45deg, #ff6f61, #f1c0c6); /* Darker gradient on hover */
+            transform: scale(1.05); /* Slightly enlarge the widget */
+            cursor: pointer; /* Change the cursor to indicate it's clickable */
+        }</string>
+      </property>
+      <property name="text">
+       <string>Prénom</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit_prenom">
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+    background-color: #f8f8f8;        /* Light gray background */
+    border: 2px solid #ccc;           /* Light border */
+    border-radius: 12px;               /* Rounded corners */
+    padding: 2px;                    /* Padding inside the input field */
+    font-size: 12px;                  /* Font size for the text */
+    color: #333;                      /* Text color */
+    transition: border 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+QLineEdit:focus {
+    border-color: #4CAF50;            /* Green border on focus */
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.7); /* Green glow effect */
+    outline: none;                    /* Remove the default outline */
+}
+
+QLineEdit::placeholder {
+    color: #aaa;                      /* Lighter text for placeholder */
+    font-style: italic;               /* Italic style for placeholder */
+}</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>170</y>
+     <width>351</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_3">
+    <item>
+     <widget class="QLabel" name="label_8">
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+            font-family: 'Playfair Display', serif;
+            font-size: 14px;
+            font-weight: bold;
+            color: Black;
+            background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+        }
+        
+        QLabel:hover {
+            background: linear-gradient(45deg, #ff6f61, #f1c0c6); /* Darker gradient on hover */
+            transform: scale(1.05); /* Slightly enlarge the widget */
+            cursor: pointer; /* Change the cursor to indicate it's clickable */
+        }</string>
+      </property>
+      <property name="text">
+       <string>email</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer name="horizontalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Orientation::Horizontal</enum>
+      </property>
+      <property name="sizeType">
+       <enum>QSizePolicy::Policy::Preferred</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>14</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit_email">
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+    background-color: #f8f8f8;        /* Light gray background */
+    border: 2px solid #ccc;           /* Light border */
+    border-radius: 12px;               /* Rounded corners */
+    padding: 2px;                    /* Padding inside the input field */
+    font-size: 12px;                  /* Font size for the text */
+    color: #333;                      /* Text color */
+    transition: border 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+QLineEdit:focus {
+    border-color: #4CAF50;            /* Green border on focus */
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.7); /* Green glow effect */
+    outline: none;                    /* Remove the default outline */
+}
+
+QLineEdit::placeholder {
+    color: #aaa;                      /* Lighter text for placeholder */
+    font-style: italic;               /* Italic style for placeholder */
+}</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>210</y>
+     <width>351</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_4">
+    <item>
+     <widget class="QLabel" name="label_9">
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+            font-family: 'Playfair Display', serif;
+            font-size: 14px;
+            font-weight: bold;
+            color: Black;
+            background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+        }
+        
+        QLabel:hover {
+            background: linear-gradient(45deg, #ff6f61, #f1c0c6); /* Darker gradient on hover */
+            transform: scale(1.05); /* Slightly enlarge the widget */
+            cursor: pointer; /* Change the cursor to indicate it's clickable */
+        }</string>
+      </property>
+      <property name="text">
+       <string>Password</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit_password">
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+    background-color: #f8f8f8;        /* Light gray background */
+    border: 2px solid #ccc;           /* Light border */
+    border-radius: 12px;               /* Rounded corners */
+    padding: 2px;                    /* Padding inside the input field */
+    font-size: 12px;                  /* Font size for the text */
+    color: #333;                      /* Text color */
+    transition: border 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+QLineEdit:focus {
+    border-color: #4CAF50;            /* Green border on focus */
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.7); /* Green glow effect */
+    outline: none;                    /* Remove the default outline */
+}
+
+QLineEdit::placeholder {
+    color: #aaa;                      /* Lighter text for placeholder */
+    font-style: italic;               /* Italic style for placeholder */
+}</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>260</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #FFD700; /* Couleur jaune (Gold) */
+    color: black; /* Texte noir */
+    border: 2px solid #FFA500; /* Bordure orange */
+    border-radius: 10px; /* Coins arrondis */
+    font-size: 10px; /* Taille du texte */
+    font-weight: bold; /* Texte en gras */
+}
+
+QPushButton:hover {
+    background-color: #FFC107; /* Couleur jaune plus claire au survol */
+}
+
+QPushButton:pressed {
+    background-color: #87CEEB; /* Couleur jaune foncée lorsqu'on clique */
+    border: 2px solid #FF6F00; /* Bordure plus foncée */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Valid</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>260</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #FFD700; /* Couleur jaune (Gold) */
+    color: black; /* Texte noir */
+    border: 2px solid #FFA500; /* Bordure orange */
+    border-radius: 10px; /* Coins arrondis */
+    font-size: 10px; /* Taille du texte */
+    font-weight: bold; /* Texte en gras */
+}
+
+QPushButton:hover {
+    background-color: #FFC107; /* Couleur jaune plus claire au survol */
+}
+
+QPushButton:pressed {
+    background-color: #87CEEB; /* Couleur jaune foncée lorsqu'on clique */
+    border: 2px solid #FF6F00; /* Bordure plus foncée */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Home</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>90</y>
+     <width>351</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="label_5">
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+            font-family: 'Playfair Display', serif;
+            font-size: 14px;
+            font-weight: bold;
+            color: Black;
+            background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+        }
+        
+        QLabel:hover {
+            background: linear-gradient(45deg, #ff6f61, #f1c0c6); /* Darker gradient on hover */
+            transform: scale(1.05); /* Slightly enlarge the widget */
+            cursor: pointer; /* Change the cursor to indicate it's clickable */
+        }</string>
+      </property>
+      <property name="text">
+       <string>Nom</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Orientation::Horizontal</enum>
+      </property>
+      <property name="sizeType">
+       <enum>QSizePolicy::Policy::Preferred</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>12</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit_nom">
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+    background-color: #f8f8f8;        /* Light gray background */
+    border: 2px solid #ccc;           /* Light border */
+    border-radius: 12px;               /* Rounded corners */
+    padding: 2px;                    /* Padding inside the input field */
+    font-size: 12px;                  /* Font size for the text */
+    color: #333;                      /* Text color */
+    transition: border 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+QLineEdit:focus {
+    border-color: #4CAF50;            /* Green border on focus */
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.7); /* Green glow effect */
+    outline: none;                    /* Remove the default outline */
+}
+
+QLineEdit::placeholder {
+    color: #aaa;                      /* Lighter text for placeholder */
+    font-style: italic;               /* Italic style for placeholder */
+}</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
